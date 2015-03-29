@@ -31,7 +31,7 @@ Posts are fetched every 30 minutes when the WP-Cron function is being prompted. 
 
 1. Disable `wp-cron.php`
 
-You can disable WP-cron by modifying the `wp-config.php` (located in the folder where WordPress is installed). Open the wp-config.php file and add the following line to the top of the page:
+You can disable WP-cron by modifying the `wp-config.php` (located in the folder where WordPress is installed). Open the `wp-config.php` file and add the following line to the top of the page:
 
 `define('DISABLE_WP_CRON', true);`
 
