@@ -60,7 +60,7 @@ In order to test out the new cron, simply wait for the elapsed time period for t
 == Frequently Asked Questions ==
 
 = What is 90min? =
-[90min](www.90min.com) is the biggest fan generated football media company in the world. We provide football content across 10 over 200 teams and all major tournaments in 10 different languages, so you can get the most relevant content for your readership.
+[90min](http://www.90min.com) is the biggest fan generated football media company in the world. We provide football content across 10 over 200 teams and all major tournaments in 10 different languages, so you can get the most relevant content for your readership.
 
 
 = Do I need a 90min account to use this plugin? =
