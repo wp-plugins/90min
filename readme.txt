@@ -1,4 +1,4 @@
-=== 90min ===
+=== 90min Football News ===
 Contributors: 90min, maor 
 Tags: news, football, opt-in
 Requires at least: 3.5
