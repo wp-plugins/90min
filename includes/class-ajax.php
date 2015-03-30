@@ -6,13 +6,21 @@ class NM_AJAX {
 
 	public static function register() {
 		$actions = array(
-			'90min-debug' => 'debug',
-			'90min-auth' => 'auth',
+			// access-slug => array( local_callback, is_private_only )
+			'90min-debug' => array( 'debug', true ),
+			'90min-auth' => array( 'auth', true ),
 		);
 
-		foreach ( $actions as $handle => $callback ) {
-			add_action( "wp_ajax_$handle", 			array( __CLASS__, $callback ) );
-			add_action( "wp_ajax_nopriv_$handle", 	array( __CLASS__, $callback ) );
+		foreach ( $actions as $handle => $options ) {
+			list( $local_callback, $is_private_only ) = $options;
+
+			// should this AJAX method be publicly available?
+			if ( $is_private_only ) {
+				add_action( "wp_ajax_$handle", 			array( __CLASS__, $local_callback ) );
+				continue;
+			}
+
+			add_action( "wp_ajax_nopriv_$handle", 	array( __CLASS__, $local_callback ) );
 		}
 	}
 
@@ -25,8 +33,12 @@ class NM_AJAX {
 	public static function auth() {
 		$p = &$_POST;
 
-		if ( empty($p['partner_id']) || empty($p['api_key']) )
+		if ( empty($p['partner_id']) || empty($p['api_key']) || ! is_user_logged_in() )
 			wp_send_json_error();
+
+		// validate nonce
+		if ( ! wp_verify_nonce( $p['nonce'], '90min-ajax-auth' ) )
+			wp_send_json_error( __( 'Cheating.', '90min' ) );
 
 		$response = array();
 

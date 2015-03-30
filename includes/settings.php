@@ -188,6 +188,7 @@ class MC_90min_Settings {
 			sprintf( '<a target="_blank" href="%s">%s</a>', '#', _x( 'Where can I find my API key?', 'settings page', '90min' )  )*/
 		);
 
+
 		$this->add_settings_field(
 			'general_settings_section',
 			'auth-button-area',
@@ -195,6 +196,16 @@ class MC_90min_Settings {
 			''
 		);
 
+		$this->add_settings_field(
+			'general_settings_section',
+			'ajax-auth-nonce',
+			'hidden',
+			'',
+			'',
+			array(
+				'value' => wp_create_nonce( '90min-ajax-auth' )
+			)
+		);
 
 
 		// Post setting section
@@ -578,6 +589,22 @@ final class MC_90min_Settings_Controls {
 		<?php
 		self::show_description( $args );
 	}
+
+	public static function hidden( $args ) {
+		extract( $args, EXTR_SKIP );
+
+		if ( empty( $id ) || empty( $page ) )
+			return;
+
+		$name = esc_attr( sprintf( '%s[%s]', esc_attr( $page ), esc_attr( $id ) ) );
+
+		?>
+		<input type="hidden" name="<?php echo $name; ?>" value="<?php echo $value; ?>" class="regular-text code <?php echo sanitize_html_class( "$page-$id" ); ?>" />
+		<?php
+		self::show_description( $args );
+	}
+
+
 
 	public static function checkbox( $args ) {
 		extract( $args, EXTR_SKIP );

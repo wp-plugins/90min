@@ -47,6 +47,7 @@ var nm_main = function($) {
 			var payload = {
 				partner_id: $('.nmin-settings-partner-id', $settingsForm).val(),
 				api_key: $('.nmin-settings-api-key', $settingsForm).val(),
+				nonce: $('.nmin-settings-ajax-auth-nonce', $settingsForm).val(),
 				action: '90min-auth'
 			};
 
