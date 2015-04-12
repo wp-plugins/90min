@@ -408,9 +408,8 @@ class MC_90min_Settings {
 					<div class="nmin-the-logo"></div>
 				</div>
 				<div class="nmin-content">
-					<p>The 90min plugin allows content created on 90min platform to be published in WordPress</p>
-					<p>To learn more about 90min please visit 90min.com or contact us at hello@90min.com to join out partnership program.</p>
-					<p>Please contact support (support@90min.com) if you have any questions.</p>
+					<p>90min plugin allows you to automatically integrated 90min content into WordPress posts and pages</p>
+					<p><?php printf( __( 'For more information about our partnership programs visit us at %s or contact us at %s.', '90min' ), '<a href="http://90min.com/partners" target="_blank">90min.com/partners</a>', '<a target="_blank" href="mailto:wpsupport@90min.com">WPsupport@90min.com</a>' ); ?></p>
 				</div>
 			</div>
 
@@ -518,7 +517,7 @@ final class MC_90min_Settings_Controls {
 
 	public static function description($args) {
 		$sections = array(
-			'general_settings_section' => sprintf( __('Enter your 90min credentials in order to set up the plugin. Credentials are provided upon request, contact us at %s to receive access.', '90min'), '<a href="mailto:wpsupport@90min">wpsupport@90min</a>' ),
+			'general_settings_section' => sprintf( __('Enter your 90min credentials in order to set up the plugin. Credentials are provided upon request, contact us at %s to receive access.', '90min'), '<a href="mailto:wpsupport@90min">WPsupport@90min</a>' ),
 			'post_settings_section' => __('Customize 90min content in accordance to your editorial needs. Changes to the post layout will only take effect on new posts.', '90min'),
 			'feed_selection_settings_section' => __('Select your desired content.', '90min'),
 		);
