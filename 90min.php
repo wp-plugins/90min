@@ -2,7 +2,7 @@
 /*
 Plugin Name: 90Min.com
 Plugin URI: http://wordpress.org/extend/plugins/90min/
-Description: Integrate 90min content to your posts and pages. 90min plugin allows you to automatically integrated 90min content into WordPress posts and pages.
+Description: The 90min plugin enables WordPress users to automatically integrate 90min’s full syndicated library of interactive content such as videos and slideshows, directly into your posts and pages.
 Author: 90Min, LLC
 Version: 1.0
 Author URI: http://90min.com/
