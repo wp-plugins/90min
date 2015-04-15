@@ -57,7 +57,10 @@ In order to test out the new cron, simply wait for the elapsed time period for t
 
 == Screenshots ==
 
-1. Main Screen
+= Account Details = 
+To get started, enter your 90min credentials and click ‘Authenticate’ for verification. Note, credentials are provided upon request, to receive access contact us at wpsupport@90min.
+
+2. Account Details
 
 == Frequently Asked Questions ==
 
