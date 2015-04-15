@@ -10,9 +10,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-90min’s plugin allows you to automatically integrated 90min content into WordPress posts and pages. Once your credentials are authenticated you will be able choose your desired content. Your selected content will be fetched to your posts/pages. To learn more about fetching posts review the ‘Post Injection’ section below. 
+The 90min Platform connects your website and applications with the richest digital content in global football.  We support 10 leagues, over 200 teams and all major tournaments in 10 different languages so you can get the most relevant content for your readership. 
 
-For more information about our partnership programs visit us at 90min.com/partners or contact us at WPsupport@90min.com.
+Once installing the plugin, you can set up to automatically fetch the content of your choice directly into your posts and pages.
+
+Activating the plugin requires a partner ID and API Key, provided upon request. To receive access, send us a request at WPsupport@90min.com.
 
 
 == Installation ==
