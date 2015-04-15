@@ -1,6 +1,6 @@
-=== 90min Football News ===
+﻿=== 90min Football News ===
 Contributors: 90min, maor 
-Tags: news, football, opt-in
+Tags: news, Football, opt-in
 Requires at least: 3.5
 Tested up to: 4.1.1
 Stable tag: 1.0
