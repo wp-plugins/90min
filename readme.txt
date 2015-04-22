@@ -57,14 +57,14 @@ In order to test out the new cron, simply wait for the elapsed time period for t
 
 == Screenshots ==
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1.Overview
+2.Account Details
+3.Post title
+4.Views Counter
+5.Featured image
+6.Post Customization
+7.Content Selection
+8.Categories
 
 == Frequently Asked Questions ==
 
