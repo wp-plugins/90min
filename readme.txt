@@ -57,7 +57,7 @@ In order to test out the new cron, simply wait for the elapsed time period for t
 
 == Screenshots ==
 
-1.Overview
+1. Overview
 2.Account Details
 3.Post title
 4.Views Counter
