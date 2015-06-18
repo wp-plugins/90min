@@ -7,7 +7,7 @@ class NM_Dispatcher {
 	/**
 	 * API's base URL
 	 */
-	const BASE_API = 'http://www.90min.com/api/partners/v1/feed/';
+	const BASE_API = 'http://api.90min.com/api/partners/v1/feed/';
 
 	private static $ok_codes = array( 200, 304 );
 
