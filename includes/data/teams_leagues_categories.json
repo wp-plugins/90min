@@ -12,6 +12,10 @@
                     "id": 2
                 },
                 {
+                    "name": "AFC Bournemouth",
+                    "id": 179
+                },
+                {
                     "name": "Chelsea",
                     "id": 7
                 },
@@ -36,8 +40,8 @@
                     "id": 13
                 },
                 {
-                    "name": "Southampton",
-                    "id": 42
+                    "name": "Norwich City",
+                    "id": 18
                 },
                 {
                     "name": "Stoke City",
@@ -46,10 +50,6 @@
                 {
                     "name": "Sunderland",
                     "id": 15
-                },
-                {
-                    "name": "Swansea City",
-                    "id": 3
                 },
                 {
                     "name": "Tottenham Hotspur",
@@ -64,20 +64,12 @@
                     "id": 22
                 },
                 {
+                    "name": "Watford",
+                    "id": 43
+                },
+                {
                     "name": "Crystal Palace",
                     "id": 126
-                },
-                {
-                    "name": "Hull City",
-                    "id": 32
-                },
-                {
-                    "name": "Queens Park Rangers",
-                    "id": 5
-                },
-                {
-                    "name": "Burnley",
-                    "id": 28
                 },
                 {
                     "name": "Leicester City",
@@ -93,16 +85,24 @@
                     "id": 4
                 },
                 {
+                    "name": "Burnley",
+                    "id": 28
+                },
+                {
                     "name": "Bolton Wanderers",
                     "id": 6
+                },
+				{
+                    "name": "Hull City",
+                    "id": 32
                 },
                 {
                     "name": "Birmingham",
                     "id": 21
                 },
                 {
-                    "name": "Blackpool",
-                    "id": 23
+                    "name": "Milton Keynes Dons",
+                    "id": 394
                 },
                 {
                     "name": "Brighton",
@@ -125,16 +125,12 @@
                     "id": 36
                 },
                 {
-                    "name": "Millwall",
-                    "id": 37
+                    "name": "Preston North End",
+                    "id": 387
                 },
                 {
                     "name": "Nottingham Forest",
                     "id": 38
-                },
-                {
-                    "name": "Watford",
-                    "id": 43
                 },
                 {
                     "name": "Charlton Athletic",
@@ -149,24 +145,20 @@
                     "id": 132
                 },
                 {
-                    "name": "Wigan Athletic",
-                    "id": 19
+                    "name": "Bristol City",
+                    "id": 27
+                },
+                {
+                    "name": "Queens Park Rangers",
+                    "id": 5
                 },
                 {
                     "name": "Reading",
                     "id": 41
                 },
                 {
-                    "name": "AFC Bournemouth",
-                    "id": 179
-                },
-                {
                     "name": "Fulham",
                     "id": 9
-                },
-                {
-                    "name": "Norwich City",
-                    "id": 18
                 },
                 {
                     "name": "Wolverhampton Wanderers",
@@ -313,20 +305,20 @@
                     "id": 60
                 },
                 {
-                    "name": "Elche CF",
-                    "id": 175
+                    "name": "Real Betis",
+                    "id": 62
                 },
                 {
-                    "name": "UD Almería",
-                    "id": 185
+                    "name": "Las Palmas",
+                    "id": 228
                 },
                 {
                     "name": "Deportivo La Coruña",
                     "id": 127
                 },
                 {
-                    "name": "Cordoba",
-                    "id": 219
+                    "name": "Sporting Gijon",
+                    "id": 47
                 },
                 {
                     "name": "SD Eibar",
@@ -553,8 +545,8 @@
                     "id": 85
                 },
                 {
-                    "name": "Cagliari",
-                    "id": 66
+                    "name": "Frosinone",
+                    "id": 354
                 },
                 {
                     "name": "Chievo Verona",
@@ -589,8 +581,8 @@
                     "id": 76
                 },
                 {
-                    "name": "Parma",
-                    "id": 78
+                    "name": "Carpi",
+                    "id": 365
                 },
                 {
                     "name": "Roma",
@@ -617,8 +609,8 @@
                     "id": 177
                 },
                 {
-                    "name": "Cesena",
-                    "id": 68
+                    "name": "Bologna",
+                    "id": 65
                 },
                 {
                     "name": "Palermo",
@@ -662,8 +654,8 @@
                     "id": 104
                 },
                 {
-                    "name": "SC Freiburg",
-                    "id": 102
+                    "name": "Darmstadt",
+                    "id": 290
                 },
                 {
                     "name": "Borussia Mönchengladbach",
@@ -710,8 +702,8 @@
                     "id": 89
                 },
                 {
-                    "name": "SC Paderborn 07",
-                    "id": 116
+                    "name": "FC Ingolstadt 04",
+                    "id": 110
                 }
             ]
         },
@@ -734,8 +726,8 @@
                     "id": 200
                 },
                 {
-                    "name": "Evian TG",
-                    "id": 503
+                    "name": "Troyes",
+                    "id": 542
                 },
                 {
                     "name": "SC Bastia",
@@ -798,12 +790,12 @@
                     "id": 523
                 },
                 {
-                    "name": "FC Metz",
-                    "id": 530
+                    "name": "GFCO Ajaccio",
+                    "id": 521
                 },
                 {
-                    "name": "RC Lens",
-                    "id": 534
+                    "name": "Angers",
+                    "id": 525
                 }
             ]
         },
@@ -834,8 +826,8 @@
                     "id": 588
                 },
                 {
-                    "name": "Kardemir D.Ç. Karabükspor",
-                    "id": 589
+                    "name": "Kayserispor",
+                    "id": 602
                 },
                 {
                     "name": "Akhisar Belediyespor",
@@ -874,16 +866,16 @@
                     "id": 596
                 },
                 {
-                    "name": "Kayseri Erciyesspor",
-                    "id": 601
+                    "name": "Antalyaspor",
+                    "id": 598
                 },
                 {
                     "name": "Başakşehir",
                     "id": 682
                 },
                 {
-                    "name": "Balıkesirspor",
-                    "id": 683
+                    "name": "Osmanlıspor",
+                    "id": 964
                 },
                 {
                     "name": "Mersin İdm",
@@ -1002,6 +994,10 @@
                     "id": 2
                 },
                 {
+                    "name": "AFC Bournemouth",
+                    "id": 179
+                },
+                {
                     "name": "Chelsea",
                     "id": 7
                 },
@@ -1026,8 +1022,8 @@
                     "id": 13
                 },
                 {
-                    "name": "Southampton",
-                    "id": 42
+                    "name": "Norwich City",
+                    "id": 18
                 },
                 {
                     "name": "Stoke City",
@@ -1036,10 +1032,6 @@
                 {
                     "name": "Sunderland",
                     "id": 15
-                },
-                {
-                    "name": "Swansea City",
-                    "id": 3
                 },
                 {
                     "name": "Tottenham Hotspur",
@@ -1054,20 +1046,12 @@
                     "id": 22
                 },
                 {
+                    "name": "Watford",
+                    "id": 43
+                },
+                {
                     "name": "Crystal Palace",
                     "id": 126
-                },
-                {
-                    "name": "Hull City",
-                    "id": 32
-                },
-                {
-                    "name": "Queens Park Rangers",
-                    "id": 5
-                },
-                {
-                    "name": "Burnley",
-                    "id": 28
                 },
                 {
                     "name": "Leicester City",
@@ -1138,6 +1122,10 @@
                     "id": 2
                 },
                 {
+                    "name": "AFC Bournemouth",
+                    "id": 179
+                },
+                {
                     "name": "Chelsea",
                     "id": 7
                 },
@@ -1162,8 +1150,8 @@
                     "id": 13
                 },
                 {
-                    "name": "Southampton",
-                    "id": 42
+                    "name": "Norwich City",
+                    "id": 18
                 },
                 {
                     "name": "Stoke City",
@@ -1172,10 +1160,6 @@
                 {
                     "name": "Sunderland",
                     "id": 15
-                },
-                {
-                    "name": "Swansea City",
-                    "id": 3
                 },
                 {
                     "name": "Tottenham Hotspur",
@@ -1190,20 +1174,12 @@
                     "id": 22
                 },
                 {
+                    "name": "Watford",
+                    "id": 43
+                },
+                {
                     "name": "Crystal Palace",
                     "id": 126
-                },
-                {
-                    "name": "Hull City",
-                    "id": 32
-                },
-                {
-                    "name": "Queens Park Rangers",
-                    "id": 5
-                },
-                {
-                    "name": "Burnley",
-                    "id": 28
                 },
                 {
                     "name": "Leicester City",
