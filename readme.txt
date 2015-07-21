@@ -84,3 +84,6 @@ Credentials are provided upon request, contact us with a link to your 90min prof
 
 = 1.0 =
 * Initial version. 
+
+= 1.1 = 
+* Updated promoted and relegated teams
