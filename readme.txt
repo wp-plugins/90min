@@ -3,7 +3,7 @@ Contributors: 90min, maor
 Tags: news, Football, opt-in
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -87,3 +87,6 @@ Credentials are provided upon request, contact us with a link to your 90min prof
 
 = 1.1 = 
 * Updated promoted and relegated teams
+
+= 1.2 = 
+* New stable tag
