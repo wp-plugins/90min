@@ -3,7 +3,7 @@ Contributors: 90min, maor
 Tags: news, Football, opt-in
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
